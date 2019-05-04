@@ -1,18 +1,16 @@
 {
-  "addons": [
-
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
+    "name": "MR APP",
+    "description": "This app does one little thing, and does it well.",
+    "keywords": [
+        "productivity",
+        "HTML5",
+        "scalpel"
+    ],
+    "environments": {
+        "test": {
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            }
+        }
     }
-  ],
-  "env": {
-  },
-  "formation": {
-  },
-  "name": "basic-express-api",
-  "scripts": {
-  },
-  "stack": "heroku-18"
 }
